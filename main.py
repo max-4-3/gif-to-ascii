@@ -140,7 +140,7 @@ async def print_ascii_art(art_lines: list[str], center: bool = False):
 async def main():
     """Main function to run the ASCII art GIF animation."""
     # Characters ordered from darkest to lightest (more characters give more detail)
-    charset = r"$@B%8&WM#*oahkbdpqwmZ0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~i!lI;:,\"^`'. "
+    charset = r"@%#*+=-:. "
     gif_path = "gifs/gif.gif"  # Path to your GIF file
     temp_dir = "temp_gif_frames"  # Directory to store extracted frames
 
